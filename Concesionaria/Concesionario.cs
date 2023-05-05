@@ -31,7 +31,7 @@ namespace Concesionaria
         }
         public void EliminarCoche()
         {
-            Console.WriteLine("Escriba el Iddddd del coche que quieres eliminar:");
+            Console.WriteLine("Escriba el Id del coche que quieres eliminar:");
             string IDX = Console.ReadLine();
             int ID = int.Parse(IDX);
             for(int i = 0; i < _Coches.Count; i++) 
